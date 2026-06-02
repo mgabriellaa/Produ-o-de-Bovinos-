@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produção de Bovinos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>🐄 Produção de Bovinos</h1>
+        <p>Agro Forte, Futuro Sustentável</p>
+    </div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#producao">Produção</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+        <button>🔍</button>
+    </div>
+</header>
+
+<section class="banner" id="inicio">
+    <div class="banner-texto">
+        <h2>Agro Forte, Futuro Sustentável</h2>
+        <p>
+            Produção de bovinos com responsabilidade ambiental,
+            inovação e respeito aos recursos naturais.
+        </p>
+        <button>Saiba Mais</button>
+    </div>
+</section>
+
+<main id="producao" class="card">
+    <h2>🐂 Produção de Bovinos</h2>
+    <p>
+        A produção bovina é uma das atividades mais importantes do agronegócio.
+        Ela fornece carne, leite e gera milhares de empregos, contribuindo para
+        a economia e para a segurança alimentar.
+    </p>
+</main>
+
+<main id="sustentabilidade" class="card">
+    <h2>🌱 Sustentabilidade no Campo</h2>
+    <p>
+        A adoção de práticas sustentáveis reduz impactos ambientais,
+        preserva o solo, protege recursos hídricos e garante a produção
+        para as futuras gerações.
+    </p>
+</main>
+
+<main id="tecnologia" class="card">
+    <h2>📡 Tecnologia na Pecuária</h2>
+    <p>
+        Sensores, drones, monitoramento digital e manejo inteligente
+        ajudam a aumentar a produtividade enquanto diminuem desperdícios
+        e impactos ambientais.
+    </p>
+</main>
+
+<main class="card">
+    <h2>⚖️ Equilíbrio entre Produção e Meio Ambiente</h2>
+    <p>
+        O futuro da bovinocultura depende do equilíbrio entre produção
+        eficiente e preservação ambiental. O uso consciente dos recursos
+        naturais garante desenvolvimento sustentável.
+    </p>
+</main>
+
+<section id="quiz" class="quiz">
+    <h2>📝 Quiz da Produção Sustentável</h2>
+
+    <div class="pergunta">
+        <p>1. Qual é o principal objetivo da sustentabilidade na pecuária?</p>
+
+        <button onclick="verificar(this,true)">
+            Produzir preservando os recursos naturais
+        </button>
+
+        <button onclick="verificar(this,false)">
+            Produzir sem se preocupar com o ambiente
+        </button>
+    </div>
+
+    <div class="pergunta">
+        <p>2. Qual tecnologia pode ajudar na produção bovina?</p>
+
+        <button onclick="verificar(this,true)">
+            Drones e monitoramento digital
+        </button>
+
+        <button onclick="verificar(this,false)">
+            Queimadas frequentes
+        </button>
+    </div>
+
+    <div class="pergunta">
+        <p>3. O equilíbrio entre produção e meio ambiente é importante?</p>
+
+        <button onclick="verificar(this,true)">
+            Sim, garante um futuro sustentável
+        </button>
+
+        <button onclick="verificar(this,false)">
+            Não, não faz diferença
+        </button>
+    </div>
+
+    <h3 id="resultado"></h3>
+</section>
+
+<footer>
+    <p>© 2026 Produção de Bovinos | Agro Forte, Futuro Sustentável</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
